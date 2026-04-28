@@ -3,88 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Minds</title>
+    <title>Digital Minds | Trainee Showcase</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="toparea"> <img src="imgs/digital minds.png"/> <open class="toptext"> Digital Minds</open></div>
     
-    <header>
-<div class="off-screen-menu">
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About me</a></li>
-        <li><a href="#">Contact me</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Careers</a></li>
-    </ul>
-</div>
+    <header class="main-header">
+        <div class="container header-flex">
+            <div class="logo-area">
+                <span class="brand-name">Digital<span>Minds</span></span>
+            </div>
 
-    <nav>
-        <div class="main_nav">
-        <ul>
-            <li>Home</li>
-            <li>About us</li>
-            <li>Contact</li>
-            <li>Portfolio</li>
-            <li>Careers</li>
-        </ul>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#" class="btn-contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-    
-    <nav>
-        <div class="ham-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-        </div>
-    </nav>
     </header>
 
-    
-    
-     <!--<div class="content">
-        <h1>Welcome to Digital Minds</h1>
-        <p>This is a blog page for trainee web developers. Here you can find profiles of our trainees, their projects, and their journey in the world of web development.</p> -->
-        
-    
-    </div> 
-    
-    <section class="profiles">
-        <h2>Trainee Web Developers</h2>
-        <div class="profile">
-            <img src="imgs/ohpic.jpg" alt="Profile 1">
-            <h3>Oliver H.</h3>
-            <p>Oliver is a dedicated trainee who has shown great progress in his web development skills. He is eager to take on new challenges and contribute to the team.
-                he often spends extra time learning new technologies and improving his coding skills. 
-                Oliver is a valuable asset to our team and we look forward to seeing his growth in the field of web development.
-            </p>
-        </div>
-        <div class="profile">
-            <img src="imgs/liamr.jpg" alt="Profile 2">
-            <h3>Liam R.</h3>
-            <p>Only been at the company for a few months. already familiar with the basics of web development with thanks to the
-                fantastic training program we had put together. Liam  is looking to move on to better things as he will leave the company soon.</p>
-        </div>
-        <div class="profile">
-            <img src="imgs/" alt="Profile 3">
-            
-    </section>
-    
+    <div class="off-screen-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
 
+    <main class="container">
+        <section class="hero-section">
+            <h1>Developing the Future</h1>
+            <p>Meet the talented trainee developers shaping the next generation of the web.</p>
+        </section>
 
+        <section class="profiles">
+            <div class="profile-grid">
+                <div class="profile-card">
+                    <div class="image-container">
+                        <img src="imgs/ohpic.jpg" alt="Oliver H.">
+                    </div>
+                    <h3>Oliver H.</h3>
+                    <p class="role">Junior Developer</p>
+                    <p class="bio">Oliver is a dedicated trainee with a passion for frontend architecture. He consistently pushes boundaries by mastering modern frameworks and UI/UX principles.</p>
+                </div>
 
-     
-    
-
-
+                <div class="profile-card">
+                    <div class="image-container">
+                        <img src="imgs/liamr.jpg" alt="Liam R.">
+                    </div>
+                    <h3>Liam R.</h3>
+                    <p class="role">Full-Stack Trainee</p>
+                    <p class="bio">Liam has rapidly progressed through our intensive training program. He specializes in clean backend logic and is currently transitioning into advanced systems engineering.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <script src="navbar.js"></script>
-
-
-        <!-- ul>li*8 -->
-     <!-- ul>li*8>a -->
-      <!-- dl>dd*5 -->
-       <!-- ul>li*10.luis -->
-        <!-- dl>dd*4>a. -->
 </body>
 </html>
